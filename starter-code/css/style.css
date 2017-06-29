@@ -1,52 +1,86 @@
 /*
 Project Name: Design CSS
-Client: Relaxr
+Client: Personal Web
 Author: Alex Li
 Developer @GA in DENVER
 */
 
 /* Center the container */
 #container {
-  width: 55%;
+  width: 75%;
   margin: 0 auto;
   background-position: center;
 }
 
-body {
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: 'Open Sans',serif;
-     background: #606161;
-}
-
-ul {
-     padding: 10px;
-     background: rgba(0,0,0,0.5);
-   }
-
-li {
-   display: inline;
-   padding: 0px 10px 0px 10px;
-   font-size: 50px;
-   font-family: 'Lobster', cursive;
-   color: white;
-   }
-
+/*HEADER*/
 header {
    text-align: center;
    background: url('http://i.imgur.com/dX2PE2R.jpg');
    background-size: cover;
    color: white;
    height: 500px;
- }
+}
 
- .ballmerPeak{
+/*BODY*/
+body {
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans',serif;
+     background: azure;
+}
+
+hr {
+  height: 15px;
+  background-color: black;
+}
+
+a {
+  color: yellow;
+}
+
+ul {
+     padding: 10px;
+     background: rgba(0,0,0,0.5);
+}
+
+li {
+   display: inline;
+   padding: 0px 10px 0px 10px;
+   font-size: 25px;
+   font-family: 'Lobster';
+   color: white;
+}
+
+h1 {
+   display: inline;
+   padding: 0px 10px 0px 10px;
+   font-size: 50px;
+   font-family: 'Lobster', cursive;
+   color: white;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+
+p {
+  font-family: 'Bree Serif', serif;
+  font-size: 13px;
+}
+
+.ballmerPeak{
    background: url('http://scienceblogs.com/strangerfruit/wp-content/blogs.dir/280/files/2012/04/i-540bbe4a63f26a780e34fbdcd3a7fecd-2007-09-30_223017.png');
    text-align: center;
    background-size: cover;
    color: black;
-   height: 500px;
+   height: 550px;
    font-family: 'Shadows Into Light', cursive;
    font-size: 20px;
-
  }
